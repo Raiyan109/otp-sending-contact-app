@@ -1,0 +1,13 @@
+.contactsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    width: 80%;
+    /* background-color: #181818; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
