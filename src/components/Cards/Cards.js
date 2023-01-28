@@ -5,7 +5,7 @@ const Cards = () => {
     const [contacts, setContacts] = useState([])
 
     useEffect(() => {
-        fetch('contacts.json')
+        fetch('https://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
             .then(data => setContacts(data))
     }, [])

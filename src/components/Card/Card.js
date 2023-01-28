@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom';
 const Card = ({ contact }) => {
     const navigate = useNavigate()
     const navigateToContactInfo = () => {
-        navigate('/contacts/:id')
+        navigate(`/contact/${id}`)
     }
-    const { name } = contact
+    const { name, id } = contact
     return (
         <div className={styles.cardContainer}>
             <div className={styles.cardWrapper}>
