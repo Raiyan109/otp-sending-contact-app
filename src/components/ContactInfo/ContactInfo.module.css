@@ -5,5 +5,18 @@
 .phone {
     color: #fff;
     opacity: .5;
-    font-size: 14px;
+
+}
+
+.button {
+    padding: 13px;
+    margin-top: 20px;
+    text-decoration: none;
+    /* width: 70px;
+    height: 30px; */
+    background-color: #353131;
+    color: #fe6161;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
 }

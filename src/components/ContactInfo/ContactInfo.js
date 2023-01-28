@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import styles from './ContactInfo.module.css'
 const ContactInfo = ({ contacts }) => {
     // const { name, phone } = contacts
@@ -18,7 +18,8 @@ const ContactInfo = ({ contacts }) => {
         <div className={styles.container}>
             <h1>Contact info</h1>
             <h1>Name : {info.name}</h1>
-            <span className={styles.phone}>Phone: {info.phone}</span>
+            <h2 className={styles.phone}>Phone: {info.phone}</h2>
+            <Link to='/sendMessage' className={styles.button}>Send Message</Link>
         </div>
     );
 };
