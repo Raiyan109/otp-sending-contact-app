@@ -1,0 +1,47 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #383838;
+    color: #fff;
+    border-radius: 999px 300px 300px 999px;
+    overflow: hidden;
+    padding-right: 20px;
+    transition: .4s;
+}
+
+.cardContainer div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardContainer:hover {
+    background: #525252;
+    /* .delete {
+            opacity: 1;
+        } */
+}
+
+.cardWrapper {}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.delete {
+    background: none;
+    color: #fe6161;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+.delete:hover {
+    transform: scale(1.3);
+}
