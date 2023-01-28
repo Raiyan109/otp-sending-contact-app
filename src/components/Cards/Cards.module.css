@@ -1,8 +1,8 @@
 .contactsWrapper {
     margin-top: 40px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    margin: 50px;
 }
 
 .contacts {
