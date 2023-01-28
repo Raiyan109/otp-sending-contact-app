@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ContactInfo.module.css'
-const ContactInfo = ({ contact }) => {
-    const { name, phone } = contact
+const ContactInfo = ({ contacts }) => {
+    const { name, phone } = contacts
     return (
         <div>
             <h1>Contact info </h1>
